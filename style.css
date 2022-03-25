@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#prelodar{
+    background: #000 url(image/preloader.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    z-index: 10000;
+    position: fixed;
+}
+.navbar{
+    position: fixed;
+    z-index: 500;
+    width: 100%!important;
+}
+.navbar.sticky{
+    background: crimson!important;
+}
+.bg{
+    background-image: url(/image/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90Vh;
+    position: relative;
+    top: 8vh;
+    margin-bottom: 70px;
+}
+.font-color{
+    color: white;
+}
+#pratik{
+    font-size: 22px;
+}
+.title1{
+    color: #fff;
+}
+.full img{
+    height: 100%;
+}
+.mode{
+    writing-mode: vertical-lr;
+    letter-spacing: 1rem;
+    font-size: 24px;
+    /* text-orientation: upright; */
+}
+.about{
+    padding-top: 5rem;
+}
+
+.star{
+    color: Orange;
+}
+.fa-star-half{
+    color: Orange;
+}
+.review{
+    margin-bottom: 2rem;
+}
+
+.box{
+    max-width: 400px;
+    background: #f8f9fa;
+    padding: 10px 20px;
+    border: 1px solid #d6d8db;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.box .thanks{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+}
+.box .edit{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.box .exit{
+    display: none;
+}
+.box .exit:hover{
+    text-decoration: underline;
+}
+.box .star-widget input{
+    display: none;
+}
+.star-widget label{
+    font-size: 25px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.4s easw;
+    margin-bottom: 10px;
+}
+input:not(checked) ~ label:hover,
+input:not(checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: Orange;
+}
+input#rate-5:checked ~ label{
+    color: orange;
+    text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header:before{
+    content: "Just hate it 😔";
+}
+#rate-2:checked ~ form header:before{
+    content: "Don't like it 😞";
+}
+#rate-3:checked ~ form header:before{
+    content: "Good 😁";
+}
+#rate-4:checked ~ form header:before{
+    content: "Awesome 😃";
+}
+#rate-5:checked ~ form header:before{
+    content: "Excellent 😎";
+}
+.box form{
+    display: none;
+}
+input:checked ~ form{
+    display: block;
+}
+form header{
+    width:100%;
+    font-size: 25px;
+    color: Orange;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+form .textarea textarea{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #333;
+    background: #f8f9fa;
+    padding: 10px;
+    font-size: 16px;
+    color: #eee;
+    resize: none;
+    border-radius: 5px;
+}
+.form .post{
+    height: 45px;
+    width: 100%;
+    /* margin: 15px 0; */
+}
+form .post button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #f8f9fa;
+    color: #999;
+    font-size: 16px;
+    font-weight: 520;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+}
+form .post button:hover{
+    background: #1b1b1b;
+}
+
+.topper{
+    height: 100%;
+}
+
+@media (max-width:767px){
+    .mode{
+        writing-mode:horizontal-tb;
+        letter-spacing: 0.5rem;
+    }
+}
+@media(max-width:400px) {
+    .star-widget label{
+        padding: 10px 5px;
+        float: inline-start;
+    }
+}
+.hide{
+    display: none;
+}
