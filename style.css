@@ -19,7 +19,7 @@
     background: crimson!important;
 }
 .bg{
-    background-image: url(/image/bg-3.jpg);
+    background-image: url(image/bg-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90Vh;
