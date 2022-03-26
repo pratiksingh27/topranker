@@ -4,19 +4,21 @@
 }
 #prelodar{
     background: #000 url(image/preloader.gif) no-repeat center;
-    background-size: 20%;
+    background-size: 10%;
     height: 100vh;
     width: 100%;
     z-index: 10000;
     position: fixed;
 }
 .navbar{
-    position: fixed;
-    z-index: 500;
+   
+    z-index: 101;
     width: 100%!important;
 }
 .navbar.sticky{
     background: crimson!important;
+    top: 0;
+    position: fixed;
 }
 .bg{
     background-image: url(image/bg-3.jpg);
@@ -24,8 +26,8 @@
     background-size: cover;
     height: 90Vh;
     position: relative;
-    top: 8vh;
     margin-bottom: 70px;
+    overflow: hidden;
 }
 .font-color{
     color: white;
@@ -156,7 +158,6 @@ form .textarea textarea{
     background: #f8f9fa;
     padding: 10px;
     font-size: 16px;
-    color: #eee;
     resize: none;
     border-radius: 5px;
 }

@@ -4,7 +4,12 @@ const header =document.querySelector(".navbar");
 
 window.onscroll = function(){
     let top = window.scrollY;
-    // console.log(top);
+    if(window.pageYOffset >= 110){
+        header.classList.add('skicky');
+    }
+    else{
+        header.classList.remove('skicky');
+    }
     if(top >100){
         header.classList.add('sticky');
     }
@@ -27,7 +32,7 @@ var loader =document.getElementById("prelodar");
 window.addEventListener('load', function(){
     loader.style.display = "none";
 });
-AOS.init();
+// AOS.init();
 
 
 //review
