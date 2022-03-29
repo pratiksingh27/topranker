@@ -1,6 +1,7 @@
 //navbar color change
 console.log("Hello!")
 const header =document.querySelector(".navbar");
+const up =document.querySelector(".arrow");
 
 window.onscroll = function(){
     let top = window.scrollY;
@@ -15,6 +16,12 @@ window.onscroll = function(){
     }
     else{
         header.classList.remove('sticky');
+    }
+    if(top<800){
+        up.style.display ="none";
+    }
+    else{
+        up.style.display ="block";
     }
 }
 //text typing effect

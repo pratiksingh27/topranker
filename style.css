@@ -34,6 +34,20 @@
 .font-color{
     color: white;
 }
+.whatapp{
+    max-width: 3rem;
+    text-align: center;
+    position: fixed;
+    top: 90vh;
+    z-index: 102;
+}
+.arrow{
+    max-width: 3rem;
+    text-align: center;
+    position: fixed;
+    top: 90vh;
+    right: 0;
+}
 #pratik{
     font-size: 22px;
 }
