@@ -47,7 +47,7 @@ body {
     width: calc(100vw - 35vw);
 }
 #container h1{
-    background: var(--lg-darkcolor);
+    /* background: var(--lg-darkcolor); */
     border-radius: 2px;
 }
 
@@ -70,13 +70,15 @@ input {
 }
 .btn{
     /* width: 100%; */
-    background: var(--lg-darkcolor);
-    border: 0px solid #fff;
-    color: #fff;
+    background: white;
+    border: 1px solid #000;
+    /* color: #fff; */
     border-radius: 5px;
+    transition: 0.5s;
 }
 .btn:hover{
-   background: linear-gradient(to right, #3498db , #e498bd); 
+   background: crimson;
+   color: white; 
 }
 
 
@@ -101,7 +103,7 @@ input {
     </div>
     <div id="container" onsubmit="return validate()">
         <div class="form-designe">
-        <h1>Form for free Demo class</h1>
+        <h1>Get Subscription</h1>
     </div>
     <div class="form-designe">
         <form action="/index.html" class="form">

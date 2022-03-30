@@ -218,3 +218,57 @@ form .post button:hover{
 .hide{
     display: none;
 }
+
+/* test page */
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(139, 137, 137);
+}
+.quiz-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+}
+.quiz-header{
+    padding: 4rem;
+}
+#Question{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+} 
+.ul{
+    list-style: none;
+    padding: 0;
+}
+ul .li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul .li label{
+    cursor: pointer;
+}
+#submit{
+    background-color: rgb(236, 32, 73);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    border-radius: 0 0 10px 10px;
+}
+#submit:hover{
+    background-color: crimson;
+}
+#submit:focus{
+    outline: none;
+    background-color: #44b923;
+}
