@@ -39,6 +39,7 @@
     text-align: center;
     position: fixed;
     top: 90vh;
+    border-radius: 50%;
     z-index: 102;
 }
 .arrow{
@@ -46,14 +47,16 @@
     text-align: center;
     position: fixed;
     top: 90vh;
+    border-radius: 50%;
+    border: none;
     right: 0;
 }
 #pratik{
     font-size: 22px;
 }
-/* .title1{
+.title1{
     color: #fff;
-} */
+}
 .full img{
     height: 100%;
 }
