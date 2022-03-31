@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* overflow-x: hidden; */
 }
+/* Preloder */
 #prelodar{
     background: #000 url(image/preloader.gif) no-repeat center;
     background-size: 10%;
@@ -12,6 +13,7 @@
     z-index: 10000;
     position: fixed;
 }
+/* navbar */
 .navbar{
    
     z-index: 101;
@@ -22,8 +24,9 @@
     top: 0;
     position: fixed;
 }
+/* hero section */
 .bg{
-    background-image: url(image/bg-3.jpg);
+    background-image: url(image/bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90Vh;
@@ -34,6 +37,23 @@
 .font-color{
     color: white;
 }
+#pratik{
+    font-size: 22px;
+}
+.title1{
+    color: #fff;
+}
+.full img{
+    height: 100%;
+}
+/* footer company name */
+.mode{
+    writing-mode: vertical-lr;
+    letter-spacing: 1rem;
+    font-size: 24px;
+    /* text-orientation: upright; */
+}
+/* fix icon/image */
 .whatapp{
     max-width: 3rem;
     text-align: center;
@@ -51,25 +71,11 @@
     border: none;
     right: 0;
 }
-#pratik{
-    font-size: 22px;
-}
-.title1{
-    color: #fff;
-}
-.full img{
-    height: 100%;
-}
-.mode{
-    writing-mode: vertical-lr;
-    letter-spacing: 1rem;
-    font-size: 24px;
-    /* text-orientation: upright; */
-}
+/* padding in all page */
 .about{
     padding-top: 5rem;
 }
-
+/* Rating section */
 .star{
     color: Orange;
 }
@@ -202,10 +208,14 @@ form .post button:hover{
     background: #1b1b1b;
 }
 
+/* our result */
+.hide{
+    display: none;
+}
 .topper{
     height: 100%;
 }
-
+/* responsive ness */
 @media (max-width:767px){
     .mode{
         writing-mode:horizontal-tb;
@@ -217,9 +227,6 @@ form .post button:hover{
         padding: 10px 5px;
         float: inline-start;
     }
-}
-.hide{
-    display: none;
 }
 
 /* test page */
