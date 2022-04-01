@@ -64,6 +64,7 @@
 }
 .arrow{
     max-width: 3rem;
+    height: 40px;
     text-align: center;
     position: fixed;
     top: 90vh;
