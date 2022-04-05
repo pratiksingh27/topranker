@@ -20,9 +20,13 @@
     width: 100%!important;
 }
 .navbar.sticky{
-    background: crimson!important;
+    background: #dfe1e3!important;
     top: 0;
     position: fixed;
+}
+.navbar-light .navbar-brand.sticky {
+    /* color: rgba(0,0,0,.9); */
+    color: white!important;
 }
 /* hero section */
 .bg{
@@ -71,6 +75,11 @@
     border-radius: 50%;
     border: none;
     right: 0;
+}
+.home{
+    position: absolute;
+    top: 5vh;
+    right: 2vw;
 }
 /* padding in all page */
 .about{
